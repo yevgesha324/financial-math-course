@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Міні-курс: Фінансова математика</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      line-height: 1.7;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: rgba(0,0,0,0.5);
+    }
+    h1 { font-size: 2.8rem; margin: 0; }
+    h2 { color: #ffd700; margin-top: 40px; }
+
+    .container { 
+      max-width: 1100px; 
+      margin: 0 auto; 
+      padding: 20px; 
+    }
+    .section {
+      background: rgba(255,255,255,0.1);
+      margin: 30px 0;
+      padding: 35px;
+      border-radius: 16px;
+      backdrop-filter: blur(8px);
+    }
+    .lecture {
+      background: rgba(255,255,255,0.95);
+      color: #333;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-top: 56.25%; /* 16:9 */
+      height: 0;
+      margin: 20px 0;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #000;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    button {
+      padding: 16px 40px;
+      font-size: 1.4rem;
+      margin: 20px 0;
+      border: none;
+      border-radius: 10px;
+      background: #ffd700;
+      color: #1e3c72;
+      cursor: pointer;
+    }
+    button:hover { background: #ffed4e; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💰 Міні-курс</h1>
+    <p>Фінансова математика: Кредити, Депозити та Цінні папери</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. Депозити</h2>
+      <div class="lecture">
+        <p><strong>Депозит</strong> — це коли ви кладете гроші в банк, а банк платить вам відсотки за користування вашими грошима.</p>
+        <p>Існують два основних види нарахування відсотків: <strong>прості</strong> та <strong>складні</strong>. При складних відсотках ваш прибуток росте швидше, бо відсотки нараховуються на вже нараховані відсотки.</p>
+      </div>
+      
+      <h3>🎥 Рекомендоване відео:</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/h8j0SlIapzE" 
+                title="Депозити" frameborder="0" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>2. Кредити</h2>
+      <div class="lecture">
+        <p><strong>Кредит</strong> — це позика грошей у банку. Ви отримуєте гроші зараз, а повертаєте їх пізніше з відсотками.</p>
+        <p>Важливо вміти розраховувати загальну суму переплати, щоб не переплачувати зайве.</p>
+      </div>
+      
+      <h3>🎥 Рекомендоване відео:</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/UVRjaRY8uG4" 
+                title="Кредити" frameborder="0" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>3. Цінні папери</h2>
+      <div class="lecture">
+        <p><strong>Облігації</strong> — це борговий цінний папір. Ви позичаєте гроші державі або компанії і отримуєте відсотки.</p>
+        <p><strong>Акції</strong> — це частка власності в компанії. Якщо компанія успішна — ви можете отримувати дивіденди.</p>
+      </div>
+      
+      <h3>🎥 Рекомендоване відео:</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/AqqEC49jNAU" 
+                title="Цінні папери" frameborder="0" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <h2>✅ Заключна частина</h2>
+      <p style="font-size: 1.3rem;">Тепер перевір свої знання!</p>
+      
+      <button onclick="window.open('https://play.kahoot.it/v2/?quizId=7a97b82e-cdb2-4a8e-bc20-663bdbfb1046&hostId=328e7324-484b-48e8-ba32-0b38a4c43a0f', '_blank')">
+        Пройти тест у Kahoot →
+      </button>
+    </div>
+
+  </div>
+</body>
+</html>
